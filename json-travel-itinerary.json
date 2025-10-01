@@ -1,0 +1,47 @@
+{
+    "tripName": "Europe 2026",
+    "traveler": 
+    {
+        "name": "Georgia O'Keeffe",
+        "contact": 
+        {
+            "email": "georgia@example.com",
+            "phone": "123-456-7890"
+        }
+    },
+    "destinations":
+    [
+        {
+            "location": "Paris",
+            "arrivalDate": "2026-06-01",
+            "departureDate": "2026-06-02",
+            "activities":
+            [
+                {
+                    "title": "Eiffel Tower Visit",
+                    "time": "10:00 AM"
+                },
+                {
+                    "title": "Louvre Museum Tour",
+                    "time": "1:00 PM"
+                }
+            ]
+        },
+        {
+            "location": "London",
+            "arrivalDate": "2026-06-02",
+            "departureDate": "2026-06-03",
+            "activities":
+            [
+                {
+                    "title": "Tea at Buckingham Palace",
+                    "time": "9:00 AM"
+                },
+                {
+                    "title": "Tate Modern Tour",
+                    "time": "12:00 PM"
+                }
+            ]
+        }
+    ]
+}
