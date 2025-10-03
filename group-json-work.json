@@ -1,3 +1,34 @@
+-Nesting: How did you organize the additional details in the traveler
+field, and how does it improve the organization of the data overall?
+
+name is its own key-value pair.  contact is an object with email and phone inside the object.
+
+Having them inside an object groups similar entities together.  It makes it easy to add additional attributes in the future if needed.
+
+- Arrays: For the destinations and activities, what data structure
+did you use? What impact did this decision have?
+
+The data structure we used is an array of objects.  It allows us to have any number of destinations and activities.  
+
+- Scalability: How could this JSON structure be expanded to include
+additional details, such as hotel information or transportation options?
+
+Hotel information could be added to the objects within the destinations array.  Depending on the need, transporation options could be added to either the objects within the destinations array or the objects within the activities array.
+
+- Real-World Application: How would this data be useful in a travel app
+or API?
+
+This data would be useful in a travel app or API because the traveler could see what activities they had planned for each day when they were actually on the trip.  In addition, it would be useful for the travel agency so that they could see their clients trip details if they were contacted for support.  
+
+-Add a transportation field to each destination, containing nested
+objects for mode (string, e.g., "Flight") and cost (number, e.g., 150.00).
+  Discuss how their additions enhance the data model.
+
+It would allow the traveler to budget the cost of the trip and know where to go (e.g. airport of train station) when looking to complete the next leg of their trip.
+
+
+-Add a transportion field:
+
 {
     "tripName": "Europe 2026",
     "traveler": 
